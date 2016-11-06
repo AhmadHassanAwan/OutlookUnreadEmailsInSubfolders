@@ -1,7 +1,5 @@
 'use strict';
 
-console.log('\'Allo \'Allo! Content script');
-
 var init = function() {
 
   $("._n_y4 > div > div > .subfolders > div").each(function () {                 // Iterating Each Parent Folder
@@ -30,14 +28,6 @@ var init = function() {
         return;
       }
     }
-
-    /*if (!($(this).find(".subfolders").html() == "")) {                          // If this Parent Folder contains Sub Folders
-     var totalUnreadInSubfolders = 0;                                         // Total Number of Unread Emails in This Parent Folder
-     $(this).find(".subfolders").each(function () {
-
-     });
-     console.log(totalUnreadInSubfolders);
-     }*/
   });
 };
 
