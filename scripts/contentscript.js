@@ -2,7 +2,7 @@
 
 var init = function() {
 
-  $("._n_y4 > div > div > .subfolders > div").each(function () {                 // Iterating Each Parent Folder
+  $("._n_A4 > div > div > .subfolders > div").each(function () {                 // Iterating Each Parent Folder
     var unreadSubfolderEmails = 0;
     var thisParentId = $(this).children("div").attr("id");
     var thisParentSubfolderId = "#"+thisParentId+".subfolders";
@@ -12,7 +12,7 @@ var init = function() {
     if (thisSubfolderContent) {
       $("#" + thisParentId + " > div:first-child > span > div > span:nth-child(2)").trigger("click").trigger("click");
       $("#" + thisParentId + " > div:nth-child(2) > div").each(function () {
-        var emailCount = $(this).find("._n_p4.ms-font-m.ms-fwt-sb.ms-fcl-tp").html();
+        var emailCount = $(this).find("._n_r4.ms-font-m.ms-fwt-sb.ms-fcl-tp").html();
         if (emailCount) {
           unreadSubfolderEmails = unreadSubfolderEmails + parseInt(emailCount)
         }
