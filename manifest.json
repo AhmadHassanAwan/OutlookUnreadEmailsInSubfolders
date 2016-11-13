@@ -1,13 +1,8 @@
 {
-<<<<<<< HEAD
-  "name": "Show Unread Emails in Subfolders",
-  "version": "1.1",
-  "author" : "ahmad.pgu1@hotmail.com",
-=======
   "name": "Show Unread Emails in Subfolders for Outlook",
   "short_name": "Unread Emails in Subfolders",
-  "version": "1.0",
->>>>>>> origin/master
+  "version": "1.1",
+  "author" : "ahmad.pgu1@hotmail.com",
   "manifest_version": 2,
   "description": "This Extension will allow the user to see the number of unread emails in subfolders without expanding the parent tree.",
   "icons": {
